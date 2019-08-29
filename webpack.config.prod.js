@@ -1,5 +1,6 @@
 
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 module.exports = {
   entry: [
     './src/js/index.jsx',
@@ -74,11 +75,6 @@ module.exports = {
     new ExtractTextPlugin({
       filename: '../css/styles.css'
     }),
-    new PurifyCSSPlugin({
-      paths: glob.sync([
-        path.join(__dirname, 'dist/index.html'),
-        path.join(__dirname, 'src/js/*.js')
-      ])
-    })
+  
   ]
 };
