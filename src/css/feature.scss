@@ -1,0 +1,45 @@
+.feature{
+    height: 84vh;
+    width: 100%;
+    margin-top: -20px;
+    position: relative;
+
+}
+.right-pic{
+    height: 80vh;
+    width:47%;
+margin-left: 92px;
+margin-top: 30px;
+    background-color: #dfe4e7;
+
+}
+.right-pic h1{
+    color:orange;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 20px;
+}
+ .right-pic p{
+     color:grey;
+     font-size: 20px;
+     font-weight: 200;
+     padding: 10px;
+ }
+ .right-pic a{
+     cursor: pointer;
+     margin-left: 20px;
+ }
+ 
+ .left-pic{
+height:78vh;
+width: 39%;
+position: absolute;
+margin-left: 54.5%;
+margin-top: -42%;
+background-color: #dfe4e7;
+ }
+ .left-pic img{
+     width:270px;
+     height: 200px;
+     margin-left: 5px;
+ }

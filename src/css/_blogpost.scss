@@ -1,0 +1,34 @@
+.posts-here{
+height: 59vh;
+width: 100%;
+margin-top: -20px;
+}
+.post-1, .post-2,.post-3, .post-4, .post-5, .post-6,.post-7,.post-8{
+    height: 200px;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+}
+.post-1{
+    margin-left: 100px;
+}
+.post-1, .post-2,.post-3, .post-4, .post-5, .post-6,.post-7,.post-8 h3{
+    color:  #0055ff;
+    font-weight: 500;
+}
+.post-1 p,.post-2 p,.post-3 p, .post-4 p, .post-5 p, .post-6 p,.post-7 p,.post-8 p{
+    color: grey;
+    font-size: 18px;
+}
+.post-2 , .post-5{
+    margin-left:38%;
+    margin-top: -14%;
+}
+.post-3, .post-6{
+    margin-left:68%;
+    margin-top: -14%;   
+}
+.post-4{
+   margin-left: 100px;
+}

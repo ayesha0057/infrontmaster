@@ -1,0 +1,73 @@
+.blog{
+    height: 61vh;
+    width: 100%;
+
+}
+.side-pic{
+    height: 38px;
+    width: 570px;
+    margin-left: 100px;
+    margin-top: 20px; 
+}
+.side-pic img{
+    width: 570px;
+    height: 380px;
+}
+
+
+.infront-blog{
+    height: 350px;
+    width: 300px;
+    margin-left: 700px;
+    margin-top: -40px;
+    background-color: #dfe4e7;  
+}
+.search-bank{
+    height: 350px;
+    width: 300px;
+    margin-top: -370px !important;
+    background-color: #dfe4e7;
+    margin-left: 74%;
+    
+}
+
+.search-bank h1 {
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 45px;
+    padding-top: 43px;
+    font-style: italic;
+}
+.infront-blog h1 {
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+    padding-left: 45px;
+    padding-top: 40px;
+    font-style: italic;
+}
+
+.search-bank h3 {
+    color: orange;
+    padding-left: 45px;
+    font-style: italic;
+}
+
+.infront-blog h3{
+    color: orange;
+    padding-left: 45px;
+    font-style:italic;
+}
+.para p{
+    color: grey;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left: 40px;
+   width: 240px;
+   height: 200px;
+}
+.infront-blog button, .search-bank button{
+    margin-left: 43px;
+    margin-top: -100px;
+}

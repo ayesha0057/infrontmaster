@@ -1,0 +1,69 @@
+.forms{
+    height: 63vh;
+ width:100%;
+ position: relative;
+
+}
+
+.info{
+    width:42%;
+    height: 60vh;
+margin-left: 100px;
+margin-top: 60px;
+
+}
+.info h1{
+    color: black;
+     font-weight: 700;
+
+}
+.info p{
+    color: black;
+    font-weight: 500;
+}
+
+            .side-part{
+
+                height: 450px;
+                width: 45%;
+            position: absolute;
+            margin-left: 610px;
+            margin-top: -360px;
+                background-color: #303030;
+
+            }
+            .side-part h1{
+                margin-left: 75px;
+                color: orange; 
+                margin-top: 30px;
+                font-size: 25px;
+                font-weight: 700;
+            }
+            .input-list{
+                color:grey;
+                margin-left: 80px;
+                width: 85%;
+                height: 55vh;
+                margin-top: 20px;
+                // border: 1px solid white;
+
+            }
+            .input-list input{
+                width: 230px;
+                margin-top: 2px;
+            }
+
+            .input-list .two, .four,.six{
+            margin-left: 240px;
+            margin-top: -56px;
+            }
+            .input-list label{
+                margin-top: 3px;
+            }
+
+            .seven input{
+                width:87% !important;
+            }
+            .eight select{
+                width:87% !important;
+            }

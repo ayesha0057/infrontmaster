@@ -1,0 +1,85 @@
+.nav-logo{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.bg-color{
+    background: #005cb9;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff !important;
+    transition: all .3s ease;
+}
+.sticky-top{
+    z-index: 20;
+    position: sticky;
+}
+.separate{
+    background: #fff ;
+    font-weight: bold;
+    height: 15px;
+    width: 2px; 
+    margin: 20px 16px;
+}
+.nav-logo{
+    margin: 0 50px 0 20px
+}
+.nav-item:hover> .nav-link{
+    color: #ff9600 !important;
+    transition: all .3s ease;
+}
+ul.submenu {
+    background: #005cb9;
+    display: none;
+    visibility:hidden;
+    width: auto;
+    z-index: 999;
+    padding-right: 40px;
+    position: absolute;
+    color: #fff;
+text-align: left;
+top: 70%;
+list-style: none;
+transition: all 0.5s ease 0.5s;
+text-transform: uppercase;
+
+}
+
+ul.submenu-2{
+    background: #005cb9;
+    display: none;
+    width: 100%;
+    min-width: 175px;
+    visibility:hidden;
+    z-index: 999;
+    position: absolute;
+    color: #fff;
+text-align: left;
+list-style: none;
+top: 0%;
+left: 100%;
+transition: all 0.5s ease 0.5s;
+text-transform: uppercase;
+}
+// ul.submenu-2 li{
+//     /* padding: 7px 10px; */
+// }
+.navbar-nav >li:hover ul.submenu{
+    display: block;
+    visibility: visible;
+    transition: all 0.3s ease 0.3s;
+    }
+    ul.submenu li:hover ul.submenu-2{
+        display: block;
+    visibility: visible;
+    transition: all 0.3s ease 0.3s;
+    }
+ul.submenu li{
+    position: relative;
+}
+.breadcrumb{
+    position: relative;
+}
